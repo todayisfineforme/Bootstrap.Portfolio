@@ -2,26 +2,76 @@
 <html lang="en-us">
 
 <head>
+
     <meta charset="UTF-8" />
+
     <link rel="stylesheet" href="./css/reset.css">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./css/style.css">
+
     <title>Contact Info</title>
+
 </head>
 
 <body>
     <div class="sticky-top">
+
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+
             <h2 class="navbar text-light py-1">Nathan Hall</h2>
+
             <div class="navbar-nav flex-row ">
+
                 <a class="nav-item mx-2 nav-link" href="./index.html">About</a>
+
                 <a class="nav-item mx-2 nav-link" href="./portfolio.html">Portfolio</a>
+
                 <a class="nav-item mx-2 nav-link active" href="./contact.html">Contact</a>
+
             </div>
         </nav>
     </div>
 
-    
+    <div class="container-sm border border-dark mt-2 shadow p-3 mb-5 bg-secondary rounded">
+
+        <div class="row border-bottom border-dark bg-secondary mx-1">
+
+            <h2 class="text-light">Contact Me</h2>
+
+        </div>
+
+        <form class="my-1" action="/action_page.php" target="_blank">
+
+            <div class="form-group col-auto">
+
+                <label class="text-light" for="contact name">Name:</label>
+
+                <input type="text" class="form-control" id="contactName" placeholder="Name">
+
+            </div>
+
+            <div class="form-group col-auto">
+
+                <label class="text-light" for="contact email">Email:</label>
+
+                <input type="text" class="form-control" id="contactEmail" placeholder="example@gmail.com">
+
+            </div>
+
+            <div class="form-group col-auto">
+
+                <label class="text-light" for="contact message">Message:</label>
+
+                <textarea type="text" class="form-control" id="contactMessage" rows="5"></textarea>
+
+            </div>
+
+            <button type="submit" class="btn btn-outline-dark text-light">Submit</button>
+        </form>
+    </div>
+
 </body>
 
 </html>
