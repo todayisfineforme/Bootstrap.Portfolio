@@ -1,4 +1,4 @@
-# Bootstrap Portfolio
+# Bootstrap Portfolio 
 
 Static webpage portfolio utilizing bootstrap styling.
 
