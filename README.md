@@ -4,11 +4,7 @@ Static webpage portfolio utilizing bootstrap styling.
 
 ## Installation
 
-Use the node package manager [npm](https://nodejs.org/en/) to install foobar.
-
-```bash
-npm install foobar
-```
+clone repo and then open 'index.html' in preferred browser.
 
 ## Usage
 
